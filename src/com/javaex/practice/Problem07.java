@@ -13,7 +13,7 @@ public class Problem07 {
 		System.out.println("   [숫자맞추기게임 시작]   ");
 		System.out.println("----------------------");
 		
-		while(a>0) {
+		while(true) {
 			bb=sc.nextInt();
 			
 			if (bb>a) {

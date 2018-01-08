@@ -10,17 +10,10 @@ public class Problem02 {
 		int a=sc.nextInt();
 		
 		for (int i=1;i<=a;i++) {
-			System.out.print(i);
-			if (i==1) {
-				System.out.println();
-			}
-			for (int j=1;j<i;j++) {
+			for (int j=0;j<i;j++) {
 				System.out.print(i);
-				if (j==(i-1)) {
-					System.out.println();
-				}
-
 			}
+			System.out.println();
 		}
 		
 		
