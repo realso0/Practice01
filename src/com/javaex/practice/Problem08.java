@@ -15,6 +15,8 @@ public class Problem08 {
 	}
 	
 	public int getBalance() {
+		
+		
 		return balance;
 	}
 	public void setBalance(int balance) {
@@ -24,14 +26,12 @@ public class Problem08 {
 		return withdraw;
 	}
 	public void setWithdraw(int withdraw) {
-		this.withdraw = withdraw;
 		balance-=withdraw;
 	}
 	public int getDeposit() {
 		return deposit;
 	}
 	public void setDeposit(int deposit) {
-		this.deposit = deposit;
 		balance+=deposit;
 	}
 	
